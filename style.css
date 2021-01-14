@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("bg2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.wrapper{
+    background-color: #1D2951;
+    border-radius: 10px;
+    width: 30%;
+    height: 65vh;
+    margin: 9% auto;
+    /* text-align: center; */
+}
+
+.wrapper h1{
+    text-align: center;
+    font-family: "Varela Round";
+    padding-top: 2%;
+    padding-bottom: 4%;
+    font-weight: lighter;
+    margin: 0;
+    color: white;
+}
+
+.wrapper .email{
+    padding-left: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.95rem;
+    color: white;
+}
+
+.wrapper #userEmail{
+    margin-left: 3%;
+    width: 90%;
+    height: 8%;
+    background: transparent;
+    border: 2px solid white;
+    caret-color: white;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.wrapper .password{
+    padding-left: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.95rem;
+    color: white;
+}
+
+.wrapper #userPassword{
+    margin-left: 3%;
+    width: 90%;
+    height: 8%;
+    background: transparent;
+    border: 2px solid white;
+    caret-color: white;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.wrapper .forgot{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: whitesmoke;
+    padding-top: 2%;
+    padding-right: 4.2%;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+}
+
+.wrapper .forgot:hover{
+    color: #ff028d;
+    transition: 0.5s;
+}
+
+.wrapper .close{
+    padding-left: 92.5%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.wrapper .close:hover{
+    color: #ff028d;
+    transition: 0.3s;
+}
+
+button{
+    margin-top: 5%;
+    /* margin-bottom: 20%; */
+    margin-left: 7%;
+    width: 80%;
+    height: 8%;
+    border: 2px solid #ff028d;
+    background: transparent;
+    color: #ff028d;
+}
+
+button:hover{
+    background-color: #ff028d;
+    color: white;
+    /* border: none; */
+    transition: 0.5s;
+}
+
+.wrapper .icons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5.4%;
+    margin-left: 8.5%;
+}
+
+.wrapper .icons a{
+    display: flex;
+    padding-left: 2rem;
+    font-size: 2.2rem;
+    text-decoration: none;
+}
+
+.wrapper .icons .instagram{
+    color: #8a3ab9;
+}
+
+.wrapper .icons .instagram:hover{
+    color: #7414ac;
+    transition: 0.5s;
+}
+
+.wrapper .icons .facebook{
+    color: rgb(73, 73, 211);
+}
+
+.wrapper .icons .facebook:hover{
+    color: rgb(33, 33, 172);
+    transition: 0.5s;
+}
+
+.wrapper .icons .twitter{
+    color: skyblue;
+}
+
+.wrapper .icons .twitter:hover{
+    color: rgb(52, 168, 214);
+    transition: 0.5s;
+}
+
+.wrapper .icons .github{
+    color: #e4a633;
+}
+
+.wrapper .icons .github:hover{
+    color: #d39116;
+    transition: 0.5s;
+}
+
+.wrapper .icons .google{
+    color: rgba(224, 86, 86, 0.822);
+}
+
+.wrapper .icons .google:hover{
+    color: rgba(243, 46, 46, 0.822);
+    transition: 0.5s;
+}
+
+.wrapper .para{
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    padding-left: 30%;
+    padding-top: 4%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.remeber{
+    margin-left: 2.5%;
+    font-size: 0.85rem;
+    /* padding-top: 123.5%; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+
+.remeber input{
+    margin-top: 2%;
+}
+
+@media(max-width:768px){
+    .wrapper{
+        width: 85%;
+        margin-left: 6.5%;
+        height: 70vh;
+    }
+}
